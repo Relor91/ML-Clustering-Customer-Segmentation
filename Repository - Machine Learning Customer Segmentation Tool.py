@@ -19,7 +19,7 @@ k_labels = k_means.labels_
 df['Cluster'] = k_labels
 
 area = np.pi*(x[:,1]**2)
-plt.scatter(x[:,0],x[:,3],s=area,c=k_labels.astype(np.float),alpha=0.5) # C= IS THE COLOR FOR EACH LABEL EXPRESSED A FLOAT NUMBER. NOTE ALSO THAT YOU CAN USE A NP ARRAY AS X & Y VALUES, NOT ONLY A DATAFRAME COLUMN
+plt.scatter(x[:,0],x[:,3],s=area,c=k_labels.astype(np.float),alpha=0.5)
 plt.xlabel('Age')
 plt.ylabel('Income')
 plt.show()
