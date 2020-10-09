@@ -1,4 +1,4 @@
-# Machine Learning: Customer Segmentation
+# ML Clustering: Customer Segmentation
 
 * Applied a **K-Means** algorithm that clusters customers into groups based on Age, Education, Employment Years, Income and Debt.
 * **Pre-Processed** the data deleting categorical variables.
